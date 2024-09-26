@@ -6,7 +6,6 @@ public class LCM {
         int a=in.nextInt();
         int b=in.nextInt();
 
-        int gcd=a1.findgcd(a,b);
 
         System.out.print(a1.findlcm(a,b));
     }

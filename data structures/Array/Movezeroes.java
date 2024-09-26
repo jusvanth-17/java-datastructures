@@ -15,8 +15,7 @@ class Movezeroes {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-
+        Movezeroes m=new Movezeroes();
         // Example input array
         int[] nums = {0, 1, 0, 3, 12};
 
@@ -27,7 +26,7 @@ class Movezeroes {
         }
 
         // Call the moveZeroes method
-        solution.moveZeroes(nums);
+       m. moveZeroes(nums);
 
         // Print the array after moving zeroes
         System.out.println("\n\nArray after moving zeroes to the end:");

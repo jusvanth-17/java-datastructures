@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class MergeSort {
 
     public static void merger(int[] arr, int start, int mid, int end) {
         int leftSize = mid - start + 1;
